@@ -1,0 +1,14 @@
+<div id="input1Div">
+  <input id="input1"></input>
+  <button onclick='myFunction()'>+</button>
+</div>
+ <!–– change h1 to whatever html tag you want ––>
+<h1 id='changedField'>Hi</h1>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("input1").value;
+    document.getElementById("changedField").innerHTML = x;
+  }
+</script>
+<h2>h2 doesnt change</h2>
